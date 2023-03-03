@@ -8,59 +8,58 @@
 </p>
 
 ## About Laravel
+# Installation
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+1-clone the application first
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+    git clone https://github.com/sayedazzam15/intake_43_opensource_laravel.git
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+2-open cmd inside the application then run
 
-## Learning Laravel
+    composer install
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+3-copy .env.example and rename the copy to .env
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+4-add your database configration inside .env
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+5-generate qpplication key
 
-## Laravel Sponsors
+    php artisan key:generate
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+6-run migration file
 
-### Premium Partners
+    php artisan migrate
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+# Topics To Search
 
-## Contributing
+## Must know
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+[Authentication](https://laravel.com/docs/10.x/authorization#main-content)
 
-## Code of Conduct
+[Api Authorization](https://laravel.com/docs/10.x/sanctum#main-content)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+[Api Resources](https://laravel.com/docs/10.x/eloquent-resources#main-content)
 
-## Security Vulnerabilities
+[Image Upload](https://larainfo.com/blogs/laravel-9-image-file-upload-example)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+[Laravel Localization for multiple language](https://laravel.com/docs/10.x/localization)
 
-## License
+## Prefared To know
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+[Queues](https://laravel.com/docs/10.x/queues)
+
+[api security by cors policy](https://laravel.com/docs/10.x/routing#cors)
+
+[Event And Liseners](https://laravel.com/docs/10.x/events#main-content)
+
+LiveWire
+
+[livewire documentation](https://laravel-livewire.com/)
+
+[youtube channel](https://www.youtube.com/watch?v=xldTvs1BgzA&list=PLe30vg_FG4OQ8b813BDykoYz95Zc3xUWK)
+
+swagger
+an api documentation generator
+[github repo](https://zircote.github.io/swagger-php/)
+
+[youtube video](https://www.youtube.com/watch?v=zky95P5ytic)
